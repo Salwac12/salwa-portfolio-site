@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bgAlt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e24"/>
+      <stop offset="100%" stop-color="#121216"/>
+    </linearGradient>
+    <linearGradient id="suit" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3038"/>
+      <stop offset="100%" stop-color="#1b1c20"/>
+    </linearGradient>
+    <linearGradient id="skinAlt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fae0cf"/>
+      <stop offset="100%" stop-color="#e2ba9e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" fill="url(#bgAlt)" rx="16"/>
+
+  <!-- Subtle Studio Halo -->
+  <circle cx="128" cy="110" r="85" fill="#3b82f6" opacity="0.08"/>
+
+  <!-- Professional Blazer -->
+  <path d="M46 256 C46 195, 75 182, 128 182 C181 182, 210 195, 210 256 Z" fill="url(#suit)"/>
+  
+  <!-- Inner Blouse / Shirt -->
+  <path d="M108 178 L128 226 L148 178 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M106 178 L128 206 L88 256" stroke="#1b1c20" stroke-width="4" fill="none"/>
+  <path d="M150 178 L128 206 L168 256" stroke="#1b1c20" stroke-width="4" fill="none"/>
+
+  <!-- Neck -->
+  <path d="M115 160 L115 182 C115 188, 141 188, 141 182 L141 160 Z" fill="#e2ba9e"/>
+
+  <!-- Hair Behind Shoulders -->
+  <path d="M70 120 C64 80, 85 45, 128 45 C171 45, 192 80, 186 120 C182 170, 178 215, 175 240 L81 240 C78 215, 74 170, 70 120 Z" fill="#1c1917"/>
+
+  <!-- Head -->
+  <ellipse cx="128" cy="126" rx="45" ry="51" fill="url(#skinAlt)"/>
+
+  <!-- Professional Eyebrows -->
+  <path d="M98 112 Q108 108 118 112" stroke="#292524" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M138 112 Q148 108 158 112" stroke="#292524" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Warm Eyes -->
+  <ellipse cx="108" cy="122" rx="5.5" ry="6" fill="#1c1917"/>
+  <ellipse cx="148" cy="122" rx="5.5" ry="6" fill="#1c1917"/>
+  <circle cx="106" cy="120" r="1.8" fill="#ffffff"/>
+  <circle cx="146" cy="120" r="1.8" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M128 126 Q129 135 125 137" stroke="#cb9b7d" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Confident Warm Smile -->
+  <path d="M118 147 Q128 155 138 147" stroke="#c2410c" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Sleek Hair Front -->
+  <path d="M74 110 C80 68, 100 52, 128 52 C156 52, 176 68, 182 110 C168 85, 148 80, 128 82 C108 80, 88 85, 74 110 Z" fill="#1c1917"/>
+  <path d="M82 100 C86 130, 92 145, 86 160 C80 145, 80 120, 82 100 Z" fill="#292524"/>
+  <path d="M174 100 C170 130, 164 145, 170 160 C176 145, 176 120, 174 100 Z" fill="#292524"/>
+
+  <!-- Delicate Pearl Earrings -->
+  <circle cx="82" cy="132" r="3.5" fill="#f8fafc"/>
+  <circle cx="174" cy="132" r="3.5" fill="#f8fafc"/>
+</svg>
